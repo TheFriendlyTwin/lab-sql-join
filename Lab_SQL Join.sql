@@ -1,6 +1,7 @@
 /* Lab | SQL Join*/
 
-/* Instructions*/
+/* Instructions
+In this lab, you will be using the Sakila database of movie rentals.*/
 
 -- 1. List the number of films per category.
 select cat.name, sum(f_cat.category_id) as 'number of films'
